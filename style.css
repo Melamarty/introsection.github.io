@@ -1,0 +1,115 @@
+*{
+    background-color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+}
+nav .snap {
+    width: 100px;  
+    font-size: 20px; 
+    margin: 0 0 10px 10px ;
+    font-weight: bold;
+}
+nav .snap h1 {
+    margin: 11px 0 0 0;
+}
+.lists {
+    width: 600px;
+    margin-right: 890px;
+    display: flex;  
+    padding: 10px;
+}
+
+nav .lists .features , .company {
+    width: 200px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+nav  summary {
+    font-weight: bold;
+}
+nav .care {
+    width: 400px;
+    margin: 10px 0 10px 0;
+    padding: 2px ;
+}
+nav .care a {
+    margin: 0 60px 0 0;
+    text-decoration: none;
+    color: black;
+}
+nav .care a:hover {
+    font-weight: bold;
+} 
+
+nav .regist {
+    max-width: 400px;
+    padding: 13px;
+    float: right;
+    margin: 10px 10px 10px 0;
+}
+nav .regist .r {
+    color: black;
+    text-decoration: none;
+    margin: 0 25px ;
+    letter-spacing: 2px;
+    padding: 10px 3px;
+}
+nav .regist .r:hover{
+    font-weight: 500;
+    border: 2px Solid black;
+    border-radius: 10px;
+}
+.main {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+}
+div .all {
+    margin: 0 100px 0 180px;
+    width: 50% ;
+
+}
+div span {
+    font-size: 100px;
+    font-weight: 700;
+}
+div .img {
+    margin: 0 120px 0 auto;
+}
+div .img img {
+    height: 700px;
+    width: 600px;
+}
+div .txt p{
+    margin-top: 90px;
+    font-size: 25px;
+    font-weight: 100;
+    color: #333;
+}
+.main button {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    width: 140px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.main button:hover{
+    font-weight: 700;
+}
+.main .tags{
+    margin-top: 140px;
+    width: 600px;
+}
+.main .tags img{
+    width: 100px;
+    margin: 0 20px;
+}
